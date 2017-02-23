@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!--balise obligatoire qui indique que la page est en html5 -->
+<html>
+    <head>
+        <meta charset="utf-8" /> <!--permet d'encoder tous les caractères spéciaux attention à enregistrer en utf-8 -->
+        <link rel="stylesheet" type="text/css" href="../creer_son_site.css">
+        <title>coder en html5</title> <!-- s'affiche dans l'onglet -->
+    </head>
+    <body>
+    <div id="bloc_page">
+    	<header>
+            <p><img src="images/logosite.png" alt="logo" id="logo"></p>
+            <h1>CODER EN HTML5</h1>
+        </header>
+        <div class="onglet">
+            <p class="invisible"></p>
+            <nav class="navonglet">
+                <p >navigateur onglet</p>
+            </nav>
+            <p class="invisible"></p>
+        </div>
+    	<div class="page">
+            <div class="carnet">
+            	<nav class="navgauche">
+            		<ul>
+            			<li><a href="../index.html">retour à l'accueil</a></li>
+            			<li><a href="../contenusite/ma_progression.html">mon blog</a></li>
+            			<li><a href="../contenusite/ma_presentation.html">ma page de présentation</a></li>
+            		</ul>
+            	</nav>
+                <div class="article">
+                	<article>
+                		<h2 id="organiser_sa_page">les balises utiles pour organiser son code et sa page</h2>
+                		<p>Ces balises ne sont pas indispensables pour coder mais sont très utiles pour mettre en forme sa page par la suite, en effet, elles permettent d'utiliser la méthode de flexbloc en css. Les voici :</p>
+                		<p>
+                			<ul>
+                				<li> la balise <strong>header</strong>, c'est celle qui contiendra le titre, l'entête ou une bannière quelconque</li>
+                				<li> la balise <strong>nav</strong>, c'est celle qui contiendra les liens vers les autres pages du site</li>
+                				<li> la balise <strong>footer</strong>, c'est celle qui contient le pied de page</li>
+                				<li> la balise <strong>section</strong>, celle-ci permet de limiter plusieurs sections sur sa page</li>
+                				<li> la balise <strong>article</strong>, c'est celle qui contient le contenu de la page.</li>
+                				<li>la balise <strong>aside</strong>, celle-ci n'est pas obligatoire mais elle se situe en marge d'un article et lui apporte un petit plus</li>
+                			</ul>
+                		</p>
+                		<p>Ces balises servent au css comme dit plus haut mais sont aussi reconnues par google, ce qui est un plus pour le référencement du site. Chacune de ces balises peut contenir une ou plusieurs des autres balises.</p>
+                		<p>Voici une image tirée du site <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/structurer-sa-page" title="vers openclassromms" target="_blank">openclassroom</a></p>
+                		<figure>
+                			<img src="../codes/organisation_page.png" alt="balises pour structurer sa page">
+                			<figcaption> organiser sa page</figcaption>
+                		</figure>
+                	</article>
+                </div>
+            </div>
+            <div class="navdroit">
+                <p>Accéder directement à une section, Chaque section vous donne un exemple de code</p>
+                <ul>
+                <li><a href="#organiser_sa_page">organiser sa page</a></li>
+                </ul>
+                <p>ces liens sont encores en construction</p>
+            </div>
+    	</div>
+    </div>
+    </body>
+</html>
